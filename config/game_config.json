@@ -1,0 +1,14 @@
+{
+  "actions": ["fold", "call", "raise"],
+  "betSizes": {
+    "preflop": [0.33, 1.0, 3.0],
+    "flop": [0.25, 0.66, 1.5],
+    "turn": [0.33, 0.75, 2.0],
+    "river": [0.5, 1.0, 2.5]
+  },
+  "stacks": {
+    "min": 50,
+    "max": 500,
+    "bb": 2
+  }
+}

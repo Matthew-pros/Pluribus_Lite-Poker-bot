@@ -1,0 +1,21 @@
+preflop:
+  cluster_method: kmeans
+  n_clusters: 1500
+  features:
+    - hand_strength
+    - position
+    - stack_ratio
+
+postflop:
+  cluster_method: dbscan
+  eps: 0.3
+  features:
+    - equity
+    - nut_potential
+    - opponent_aggression
+
+bet_sizing:
+  street_weights:
+    preflop: [0.33, 1.0, 3.0]
+    flop: [0.25, 0.66, 1.5]
+    river: [0.5, 1.0, 2.5]

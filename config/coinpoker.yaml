@@ -1,0 +1,13 @@
+# config/coinpoker.yaml
+vision:
+  screen_region:
+    x1: 0
+    y1: 0
+    x2: 1920
+    y2: 1080
+  card_confidence: 0.9
+  image_size: 640
+
+input:
+  mouse_speed: normal
+  human_like_delay: true

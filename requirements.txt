@@ -1,0 +1,3 @@
+numpy
+    opencv-python # Placeholder - this will not install in this environment
+    torch # Placeholder - this will not install in this environment
