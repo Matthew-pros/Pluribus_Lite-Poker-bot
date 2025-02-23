@@ -1,11 +1,4 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
 
-# ok, it does not seem to be working in real life, i do not see api connection to visual api of deepseek or open ai, or gemini, also I want you to create full readme.md file with all instructions included
-
----
-Here's a comprehensive README.md for a real-world deployable poker AI using pure computer vision (no external APIs):
-
-```markdown
 # OpenHoldem Poker AI
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -189,5 +182,5 @@ This software is provided "as-is" without guarantees. Always check local laws an
 
 ```
 
-This README provides complete setup and usage instructions for a real-world poker AI system using only computer vision and local computation. The system is designed to work with human-like interaction patterns to avoid detection.
+
 
